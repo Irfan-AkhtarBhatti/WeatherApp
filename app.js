@@ -1,6 +1,6 @@
 //Api + URL
 
-const apiKey = "Use your API here"; 
+// const apiKey = "Use your API here"; 
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 //City Name Date & Time + it's container
