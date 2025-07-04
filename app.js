@@ -9,6 +9,7 @@ const nameCity = document.querySelector("#city");
 const date = document.querySelector("#date");
 const time = document.querySelector("#time");
 
+
 //Result container
 const result = document.querySelector(".result");
 
