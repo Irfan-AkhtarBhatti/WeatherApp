@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body>
+  
+  <!-- main Title  -->
+  <h1 class="mainHeading">Weather App</h1>
+  
+  <!-- Container in which there is search bar and a button -->
+  <!-- Pressing the button will show the results of city's weather -->
+
+  <div class="container">
+
+    <div class="search">
+      <input type="text" class="searchIn" placeholder="Search for a city..." />
+      <button class="searchBtn">Search</button>
+    </div>
+
+    <!-- City Name, Date & time -->
+
+    <div class="cityName">
+        <h2 id="city">City Name</h2>
+        <p id="date">Date</p>
+        <p id="time">Time</p>
+    </div>
+
+    <!-- Result section where the weather details will be displayed -->
+    <!-- It will be hidden and when the button is pressed it'll be displayed on the screen -->
+     
+    <div class="result">
+      <div class="tempDiv">
+        <div class="tempIconBlock">
+          <img class="tempIcon" alt="Weather Icon" src="" />
+          <p id="des">Description</p>
+        </div>
+        <div class="tempDetails">
+          <p id="temp">Temperature: 30°C</p>
+          <p id="feels">Feels like 32°C</p>
+        </div>
+      </div>
+
+      <div class="humidityDiv">
+        <img class="humidityIcon" src="" alt="Humidity Icon" />
+        <p id="humidity">Humidity: 4%</p>
+      </div>
+
+      <div class="windSpDiv">
+        <img class="windSpIcon" src="" alt="Wind Speed Icon" />
+        <p id="wind">Wind Speed: 10 km/h</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src = "app.js"></script>
+  <script src = "key.js"></script>
+</body>
+</html>
